@@ -1,0 +1,731 @@
+{
+ "takeshi": {
+  "name": "Takeshi",
+  "sprite": "npc_takeshi",
+  "role": "Ferreiro — Forja do Dragão",
+  "personality": "Rude por fora, coração de brasa.",
+  "dialogue": [
+   {
+    "if": "flag:boss_sky_defeated",
+    "lines": [
+     [
+      "@",
+      "Lá em cima tem aço que nunca viu forja: lâminas feitas de vento, dizem. Guardadas por espíritos do céu."
+     ],
+     [
+      "@",
+      "Se trouxer uma dessas, eu deixo ela cantando. Hmpf."
+     ]
+    ]
+   },
+   {
+    "if": "flag:boss_swamp_defeated",
+    "lines": [
+     [
+      "@",
+      "Ouvi dizer que você derrubou o Golem de Pedra. Com essa espadinha?"
+     ],
+     [
+      "@",
+      "Hmpf. Respeito. Volte aqui que eu deixo seu aço mais afiado."
+     ]
+    ]
+   },
+   {
+    "if": "flag:talked_takeshi",
+    "lines": [
+     [
+      "@",
+      "Ferro bom não se apressa. Nem cozinheira boa."
+     ]
+    ]
+   },
+   {
+    "lines": [
+     [
+      "@",
+      "Uma porquinha de avental na minha forja? Essa é nova."
+     ],
+     [
+      "@",
+      "Sou Takeshi. Se quiser lâmina que preste, traga Koban."
+     ]
+    ]
+   }
+  ]
+ },
+ "hana": {
+  "name": "Hana",
+  "sprite": "npc_hana",
+  "role": "Armaduras — Proteção da Sakura",
+  "dialogue": [
+   {
+    "if": "flag:boss_sky_defeated",
+    "lines": [
+     [
+      "@",
+      "Você esteve acima das nuvens! Conta tudo: o céu é mais azul de perto?"
+     ]
+    ]
+   },
+   {
+    "if": "flag:boss_swamp_defeated",
+    "lines": [
+     [
+      "@",
+      "Você voltou inteira do pântano! Que alívio."
+     ],
+     [
+      "@",
+      "Uma armadura de musgo combinaria com você agora, sabia?"
+     ]
+    ]
+   },
+   {
+    "lines": [
+     [
+      "@",
+      "Bem-vinda à Proteção da Sakura!"
+     ],
+     [
+      "@",
+      "Cada peça daqui foi costurada sob as cerejeiras. Proteção e estilo."
+     ]
+    ]
+   }
+  ]
+ },
+ "mestre_sapo": {
+  "name": "Mestre Sapo",
+  "sprite": "npc_mestre_sapo",
+  "role": "Alquimista — Caldeirão da Lua",
+  "dialogue": [
+   {
+    "if": "flag:boss_ghost_city_defeated",
+    "lines": [
+     [
+      "@",
+      "Croac. A Visão Espiritual... poucos voltam daquele bairro com olhos para os dois mundos."
+     ],
+     [
+      "@",
+      "Use bem. Tem coisas nesta vila que só aparecem para quem sabe olhar."
+     ]
+    ]
+   },
+   {
+    "lines": [
+     [
+      "@",
+      "Croac... Poções, elixires, antídotos."
+     ],
+     [
+      "@",
+      "No pântano, o veneno não perdoa. Leve antídotos, pequena."
+     ]
+    ]
+   }
+  ]
+ },
+ "yumi": {
+  "name": "Yumi",
+  "sprite": "npc_yumi",
+  "role": "Cozinheira — Cozinha dos Mil Sabores",
+  "dialogue": [
+   {
+    "if": "ingredients>=1",
+    "lines": [
+     [
+      "@",
+      "Você trouxe um ingrediente lendário?! Deixa eu sentir o aroma..."
+     ],
+     [
+      "@",
+      "Quando tiver todos, a cozinha do castelo vai brilhar."
+     ]
+    ]
+   },
+   {
+    "lines": [
+     [
+      "@",
+      "Ah, uma colega de avental! Eu sou Yumi."
+     ],
+     [
+      "@",
+      "Uma boa refeição antes de uma aventura vale mais que qualquer armadura."
+     ]
+    ]
+   }
+  ]
+ },
+ "tanuki": {
+  "name": "Tanuki Misterioso",
+  "sprite": "npc_tanuki",
+  "role": "Relíquias do Espírito",
+  "dialogue": [
+   {
+    "if": "flag:boss_ghost_city_defeated",
+    "lines": [
+     [
+      "@",
+      "Hehe... trouxe algo do mundo espiritual? Relíquias de lá valem ouro aqui."
+     ],
+     [
+      "@",
+      "Brincadeira. Ou não."
+     ]
+    ]
+   },
+   {
+    "lines": [
+     [
+      "@",
+      "Hehe... Amuletos, talismãs, pergaminhos antigos..."
+     ],
+     [
+      "@",
+      "Nem tudo que eu vendo é o que parece. Mas tudo funciona. Quase sempre."
+     ]
+    ]
+   }
+  ]
+ },
+ "mercador": {
+  "name": "Comerciante Viajante",
+  "sprite": "npc_mercador",
+  "role": "Estoque variável",
+  "dialogue": [
+   {
+    "lines": [
+     [
+      "@",
+      "Kaa! Vim de muito longe, atravessei seis regiões."
+     ],
+     [
+      "@",
+      "Meu estoque muda a cada dia. Coisas raras, coisas bonitas."
+     ]
+    ]
+   }
+  ]
+ },
+ "kenji": {
+  "name": "Kenji",
+  "sprite": "npc_kenji",
+  "role": "Mestre do Campo de Treinamento",
+  "dialogue": [
+   {
+    "if": "flag:training_done",
+    "lines": [
+     [
+      "@",
+      "Seus golpes estão firmes. Continue treinando sempre que voltar."
+     ]
+    ]
+   },
+   {
+    "if": "flag:boss_sky_defeated",
+    "lines": [
+     [
+      "@",
+      "Bandeiras novas na praça! O Rei Porco mandou pendurar em sua honra."
+     ],
+     [
+      "@",
+      "Três ingredientes... você está na metade do caminho, Lulu."
+     ]
+    ]
+   },
+   {
+    "lines": [
+     [
+      "@",
+      "Você é a aprendiz do Rei Porco? Então mostre do que é capaz."
+     ],
+     [
+      "@",
+      "Ataque os bonecos de palha. Esquive com o Espaço. Segure o ataque para um golpe carregado."
+     ]
+    ]
+   }
+  ]
+ },
+ "guarda": {
+  "name": "Guarda do Castelo",
+  "sprite": "npc_guarda",
+  "role": "Guarda",
+  "dialogue": [
+   {
+    "if": "ingredients>=6",
+    "lines": [
+     [
+      "@",
+      "O Rei aguarda você na cozinha real. Todos estão ansiosos!"
+     ]
+    ]
+   },
+   {
+    "lines": [
+     [
+      "@",
+      "Alto! Ah, é você. O Rei Porco avisou que você chegaria."
+     ],
+     [
+      "@",
+      "O castelo está aberto para você. A biblioteca e a sala de mapas ficam lá dentro."
+     ]
+    ]
+   }
+  ]
+ },
+ "guarda_b": {
+  "name": "Guarda do Castelo",
+  "sprite": "npc_guarda",
+  "role": "Guarda",
+  "dialogue": [
+   {
+    "lines": [
+     [
+      "@",
+      "Patrulhando, patrulhando... Nada passa por aqui. Nem um grão de arroz."
+     ]
+    ]
+   }
+  ]
+ },
+ "fukuro": {
+  "name": "Fukuro",
+  "sprite": "npc_fukuro",
+  "role": "Bibliotecária",
+  "dialogue": [
+   {
+    "if": "flag:boss_ghost_city_defeated",
+    "lines": [
+     [
+      "@",
+      "Hoo. Os registros falam do Lobo Fantasma há três séculos, uivando para a lua da Vila Fantasma."
+     ],
+     [
+      "@",
+      "Que alguém o tenha acalmado... isso não está escrito em livro nenhum. Vou escrever."
+     ]
+    ]
+   },
+   {
+    "lines": [
+     [
+      "@",
+      "Uhu. Cada região guarda segredos fora do caminho principal."
+     ],
+     [
+      "@",
+      "O Rei sempre diz isso. Ele tem razão — mas não conte a ele que eu disse."
+     ]
+    ]
+   }
+  ]
+ },
+ "morador_porco": {
+  "name": "Buta",
+  "sprite": "npc_morador_porco",
+  "dialogue": [
+   {
+    "if": "flag:boss_sky_defeated",
+    "lines": [
+     [
+      "@",
+      "Você domou o Guardião da Tempestade? Agora até o vento é seu amigo!"
+     ]
+    ]
+   },
+   {
+    "if": "flag:boss_ghost_city_defeated",
+    "lines": [
+     [
+      "@",
+      "Dizem que as lanternas da Vila Fantasma ficaram azuis de novo. E que foi você!"
+     ],
+     [
+      "@",
+      "Eu nunca teria coragem de entrar lá. Nem de dia."
+     ]
+    ]
+   },
+   {
+    "if": "flag:boss_swamp_defeated",
+    "lines": [
+     [
+      "@",
+      "Você derrotou o Golem de Pedra? A vila inteira está comentando!"
+     ]
+    ]
+   },
+   {
+    "lines": [
+     [
+      "@",
+      "Bem-vinda à Vila do Rei Porco! O cheiro de tonkatsu aqui é constante."
+     ]
+    ]
+   }
+  ]
+ },
+ "moradora_porca": {
+  "name": "Tonko",
+  "sprite": "npc_moradora_porca",
+  "dialogue": [
+   {
+    "if": "flag:boss_swamp_defeated",
+    "lines": [
+     [
+      "@",
+      "Plantei repolhos novos no jardim em sua homenagem!"
+     ]
+    ]
+   },
+   {
+    "lines": [
+     [
+      "@",
+      "Você também já foi humana? Que curioso... Aqui ninguém estranha."
+     ]
+    ]
+   }
+  ]
+ },
+ "coelha": {
+  "name": "Usagi",
+  "sprite": "npc_coelha",
+  "dialogue": [
+   {
+    "if": "flag:boss_sky_defeated",
+    "lines": [
+     [
+      "@",
+      "Sentiu o vento novo na vila? Desde que você voltou do céu, as pétalas não param de dançar."
+     ]
+    ]
+   },
+   {
+    "lines": [
+     [
+      "@",
+      "Se for ao jardim espiritual, ande devagar. Os espíritos são tímidos."
+     ]
+    ]
+   }
+  ]
+ },
+ "macaco_velho": {
+  "name": "Vovô Saru",
+  "sprite": "npc_macaco_velho",
+  "dialogue": [
+   {
+    "lines": [
+     [
+      "@",
+      "No meu tempo, a ponte do jardim era só uma pedra no meio do lago."
+     ],
+     [
+      "@",
+      "Dizem que atrás da cachoeira há algo escondido. Eu nunca tive coragem."
+     ]
+    ]
+   }
+  ]
+ },
+ "crianca_porco": {
+  "name": "Kobuta",
+  "sprite": "npc_crianca_porco",
+  "speed": 40,
+  "dialogue": [
+   {
+    "if": "flag:boss_ghost_city_defeated",
+    "lines": [
+     [
+      "@",
+      "Tem um menino-fantasma brincando com pião perto da fonte! Ele disse que se chama Taro."
+     ],
+     [
+      "@",
+      "Ele é legal. Só é meio... transparente."
+     ]
+    ]
+   },
+   {
+    "lines": [
+     [
+      "@",
+      "Você vai mesmo enfrentar os seis guardiões? Que demais!!"
+     ]
+    ]
+   }
+  ]
+ },
+ "pescador": {
+  "name": "Kawauso",
+  "sprite": "npc_pescador",
+  "dialogue": [
+   {
+    "if": "flag:boss_sky_defeated",
+    "lines": [
+     [
+      "@",
+      "Os peixes andam pulando mais alto. Culpa desse vento celeste, aposto."
+     ]
+    ]
+   },
+   {
+    "lines": [
+     [
+      "@",
+      "Os peixes desse lago brilham à noite. Coisa de espírito."
+     ]
+    ]
+   }
+  ]
+ },
+ "jardineira": {
+  "name": "Niwa",
+  "sprite": "npc_jardineira",
+  "dialogue": [
+   {
+    "if": "flag:boss_ghost_city_defeated",
+    "lines": [
+     [
+      "@",
+      "Os espíritos que vieram da Vila Fantasma adoram o jardim. Ficam dançando em volta das lanternas."
+     ]
+    ]
+   },
+   {
+    "lines": [
+     [
+      "@",
+      "Essas plantas adoram sol. E fofoca. Principalmente fofoca."
+     ]
+    ]
+   }
+  ]
+ },
+ "julia": {
+  "name": "Julia",
+  "sprite": "npc_julia",
+  "dialogue": [
+   {
+    "if": "ingredients>=1",
+    "lines": [
+     [
+      "@",
+      "Você voltou! A vila fica mais animada quando você chega com histórias."
+     ]
+    ]
+   },
+   {
+    "lines": [
+     [
+      "@",
+      "Oi, Lulu! Já deu uma volta na fonte? Dizem que dá sorte jogar uma moeda... mas eu jogo um bolinho."
+     ],
+     [
+      "@",
+      "Se precisar de alguém para provar seu tonkatsu, eu me candidato!"
+     ]
+    ]
+   }
+  ]
+ },
+ "heloisa": {
+  "name": "Heloisa",
+  "sprite": "npc_heloisa",
+  "dialogue": [
+   {
+    "if": "ingredients>=1",
+    "lines": [
+     [
+      "@",
+      "Vi você saindo por um portal brilhante. Que inveja! Me conta tudo depois."
+     ]
+    ]
+   },
+   {
+    "lines": [
+     [
+      "@",
+      "Estou fazendo a lista de compras: farinha panko, ovos, repolho... e um pouco de coragem."
+     ],
+     [
+      "@",
+      "As lojas daqui são ótimas. Cada uma tem um cheiro diferente!"
+     ]
+    ]
+   }
+  ]
+ },
+ "ana": {
+  "name": "Ana",
+  "sprite": "npc_ana",
+  "dialogue": [
+   {
+    "if": "ingredients>=1",
+    "lines": [
+     [
+      "@",
+      "Você já tem um ingrediente lendário? Uau! Eu sabia que você conseguiria."
+     ]
+    ]
+   },
+   {
+    "lines": [
+     [
+      "@",
+      "Plantei flores na frente da minha casa. Olha só como estão bonitas!"
+     ],
+     [
+      "@",
+      "Se ficar cansada, os bancos da vila são ótimos para descansar."
+     ]
+    ]
+   }
+  ]
+ },
+ "leandro": {
+  "name": "Leandro",
+  "sprite": "npc_leandro",
+  "dialogue": [
+   {
+    "if": "ingredients>=1",
+    "lines": [
+     [
+      "@",
+      "O Rei Porco anda dizendo que você é a cozinheira mais corajosa do reino."
+     ]
+    ]
+   },
+   {
+    "lines": [
+     [
+      "@",
+      "Estou treinando para ser guarda do castelo um dia. Primeiro passo: ficar parado sem rir."
+     ],
+     [
+      "@",
+      "...Não está funcionando."
+     ]
+    ]
+   }
+  ]
+ },
+ "kong": {
+  "name": "Kong",
+  "sprite": "npc_kong",
+  "dialogue": [
+   {
+    "if": "ingredients>=1",
+    "lines": [
+     [
+      "@",
+      "Você está ficando forte! Logo eu é que vou pedir dicas para você."
+     ]
+    ]
+   },
+   {
+    "lines": [
+     [
+      "@",
+      "O campo de treino é o melhor lugar da vila. Bata no boneco até ele pedir desculpas!"
+     ],
+     [
+      "@",
+      "Esquiva primeiro, ataque depois. Esse é o segredo."
+     ]
+    ]
+   }
+  ]
+ },
+ "higa": {
+  "name": "Higa",
+  "sprite": "npc_higa",
+  "dialogue": [
+   {
+    "if": "ingredients>=1",
+    "lines": [
+     [
+      "@",
+      "Os espíritos do jardim falam de você. Dizem que você tem um coração quente como uma panela no fogo."
+     ]
+    ]
+   },
+   {
+    "lines": [
+     [
+      "@",
+      "Shhh... estou ouvindo os espíritos do jardim. Eles cantam baixinho à noite."
+     ],
+     [
+      "@",
+      "Se ouvir um sino tocando sozinho, não se assuste. É só um espírito dizendo oi."
+     ]
+    ]
+   }
+  ]
+ },
+ "chef_pimenta": {
+  "name": "Chef Pimenta",
+  "sprite": "npc_coelha",
+  "role": "Cozinheira do mercado",
+  "dialogue": [
+   {
+    "lines": [
+     [
+      "@",
+      "Uma porquinha cozinheira no meu mercado? Que honra!"
+     ],
+     [
+      "@",
+      "Aqui tudo arde: a comida, o chão e o humor do rei."
+     ]
+    ]
+   }
+  ]
+ },
+ "guarda_palacio": {
+  "name": "Guarda do Palácio",
+  "sprite": "npc_guarda",
+  "role": "Guarda",
+  "dialogue": [
+   {
+    "lines": [
+     [
+      "@",
+      "O portão do palácio só se abre quando o grande pilão recebe os três potes de tempero real."
+     ],
+     [
+      "@",
+      "Um está no Bairro da Cúrcuma, um no Bairro da Páprica e um no Jardim das Pimentas. Boa sorte. Vai precisar."
+     ]
+    ]
+   }
+  ]
+ },
+ "juiz_arena": {
+  "name": "Juiz Tanuki",
+  "sprite": "npc_tanuki",
+  "role": "Juiz da Arena",
+  "dialogue": [
+   {
+    "lines": [
+     [
+      "@",
+      "Bem-vinda à Arena Final! Três rodadas de Oniguerreiros e depois... o campeão."
+     ],
+     [
+      "@",
+      "Fale comigo quando estiver pronta. Sem desistir no meio, hein?"
+     ]
+    ]
+   }
+  ]
+ }
+}

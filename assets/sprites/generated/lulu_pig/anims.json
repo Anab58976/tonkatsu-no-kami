@@ -1,0 +1,235 @@
+{
+  "id": "lulu_pig",
+  "cell_w": 64,
+  "cell_h": 64,
+  "origin": [
+    32,
+    60
+  ],
+  "generated": true,
+  "animations": {
+    "idle_down": {
+      "file": "idle_down.png",
+      "frames": 4,
+      "fps": 4,
+      "loop": true
+    },
+    "idle_left": {
+      "file": "idle_left.png",
+      "frames": 4,
+      "fps": 4,
+      "loop": true
+    },
+    "idle_up": {
+      "file": "idle_up.png",
+      "frames": 4,
+      "fps": 4,
+      "loop": true
+    },
+    "idle_right": {
+      "file": "idle_right.png",
+      "frames": 4,
+      "fps": 4,
+      "loop": true
+    },
+    "walk_right": {
+      "file": "walk_right.png",
+      "frames": 6,
+      "fps": 12,
+      "loop": true
+    },
+    "walk_left": {
+      "file": "walk_left.png",
+      "frames": 6,
+      "fps": 12,
+      "loop": true
+    },
+    "walk_down": {
+      "file": "walk_down.png",
+      "frames": 4,
+      "fps": 9,
+      "loop": true
+    },
+    "walk_up": {
+      "file": "walk_up.png",
+      "frames": 4,
+      "fps": 9,
+      "loop": true
+    },
+    "run_right": {
+      "file": "run_right.png",
+      "frames": 6,
+      "fps": 16,
+      "loop": true
+    },
+    "run_left": {
+      "file": "run_left.png",
+      "frames": 6,
+      "fps": 16,
+      "loop": true
+    },
+    "run_down": {
+      "file": "run_down.png",
+      "frames": 4,
+      "fps": 12,
+      "loop": true
+    },
+    "run_up": {
+      "file": "run_up.png",
+      "frames": 4,
+      "fps": 12,
+      "loop": true
+    },
+    "attack_down": {
+      "file": "attack_down.png",
+      "frames": 4,
+      "fps": 14,
+      "loop": false
+    },
+    "dodge_down": {
+      "file": "dodge_down.png",
+      "frames": 4,
+      "fps": 14,
+      "loop": false
+    },
+    "hurt_down": {
+      "file": "hurt_down.png",
+      "frames": 2,
+      "fps": 10,
+      "loop": false
+    },
+    "interact_down": {
+      "file": "interact_down.png",
+      "frames": 3,
+      "fps": 8,
+      "loop": false
+    },
+    "attack_left": {
+      "file": "attack_left.png",
+      "frames": 4,
+      "fps": 14,
+      "loop": false
+    },
+    "dodge_left": {
+      "file": "dodge_left.png",
+      "frames": 4,
+      "fps": 14,
+      "loop": false
+    },
+    "hurt_left": {
+      "file": "hurt_left.png",
+      "frames": 2,
+      "fps": 10,
+      "loop": false
+    },
+    "interact_left": {
+      "file": "interact_left.png",
+      "frames": 3,
+      "fps": 8,
+      "loop": false
+    },
+    "attack_up": {
+      "file": "attack_up.png",
+      "frames": 4,
+      "fps": 14,
+      "loop": false
+    },
+    "dodge_up": {
+      "file": "dodge_up.png",
+      "frames": 4,
+      "fps": 14,
+      "loop": false
+    },
+    "hurt_up": {
+      "file": "hurt_up.png",
+      "frames": 2,
+      "fps": 10,
+      "loop": false
+    },
+    "interact_up": {
+      "file": "interact_up.png",
+      "frames": 3,
+      "fps": 8,
+      "loop": false
+    },
+    "attack_right": {
+      "file": "attack_right.png",
+      "frames": 4,
+      "fps": 14,
+      "loop": false
+    },
+    "dodge_right": {
+      "file": "dodge_right.png",
+      "frames": 4,
+      "fps": 14,
+      "loop": false
+    },
+    "hurt_right": {
+      "file": "hurt_right.png",
+      "frames": 2,
+      "fps": 10,
+      "loop": false
+    },
+    "interact_right": {
+      "file": "interact_right.png",
+      "frames": 3,
+      "fps": 8,
+      "loop": false
+    },
+    "die": {
+      "file": "die.png",
+      "frames": 3,
+      "fps": 6,
+      "loop": false
+    },
+    "victory": {
+      "file": "victory.png",
+      "frames": 4,
+      "fps": 6,
+      "loop": true
+    },
+    "portal_enter": {
+      "file": "portal_enter.png",
+      "frames": 4,
+      "fps": 10,
+      "loop": false
+    },
+    "fall": {
+      "file": "fall.png",
+      "frames": 2,
+      "fps": 6,
+      "loop": true
+    },
+    "land": {
+      "file": "land.png",
+      "frames": 4,
+      "fps": 10,
+      "loop": false
+    },
+    "look_paws": {
+      "file": "look_paws.png",
+      "frames": 4,
+      "fps": 3,
+      "loop": true
+    },
+    "spin": {
+      "file": "spin.png",
+      "frames": 5,
+      "fps": 8,
+      "loop": false
+    },
+    "surprised": {
+      "file": "surprised.png",
+      "frames": 5,
+      "fps": 10,
+      "loop": false
+    },
+    "celebrate": {
+      "file": "celebrate.png",
+      "frames": 4,
+      "fps": 6,
+      "loop": true
+    }
+  },
+  "source": "equipe (lulu_pig_sheet.jpg), re-pixelizada"
+}

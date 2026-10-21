@@ -1,0 +1,20 @@
+{
+  "forja": {"name": "Forja do Dragão", "keeper": "Takeshi", "npc": "takeshi", "theme": "8a3a2a", "upgrades": true,
+    "greeting": "Aço bom, preço justo. Quase justo.",
+    "stock": [["katana_enferrujada", 60], ["katana_aco", 180], ["lanca_jade", 320], ["adagas_vento", 300], ["martelo_ogro", 380, "flag:boss_swamp_defeated"], ["katana_espiritual", 420, "flag:boss_ghost_city_defeated"], ["espada_celestial", 900, "flag:boss_sky_defeated"]]},
+  "protecao": {"name": "Proteção da Sakura", "keeper": "Hana", "npc": "hana", "theme": "c76a86",
+    "greeting": "Proteção e estilo, sempre juntos!",
+    "stock": [["armadura_couro", 80], ["colete_samurai", 200], ["armadura_musgo", 260], ["manto_espiritual", 420, "flag:boss_swamp_defeated"], ["armadura_celestial", 600, "flag:boss_ghost_city_defeated"], ["protecao_real", 1100, "flag:boss_spice_kingdom_defeated"]]},
+  "caldeirao": {"name": "Caldeirão da Lua", "keeper": "Mestre Sapo", "npc": "mestre_sapo", "theme": "3a4a7a",
+    "greeting": "Croac. Borbulhando e pronto.",
+    "stock": [["pocao_cura", 25], ["pocao_energia", 30], ["antidoto", 20], ["pocao_cura_grande", 70], ["resist_fogo", 60], ["resist_choque", 60], ["elixir", 150, "flag:boss_swamp_defeated"], ["erva_lunar", 8], ["cogumelo_azul", 10]]},
+  "mil_sabores": {"name": "Cozinha dos Mil Sabores", "keeper": "Yumi", "npc": "yumi", "theme": "a3252e",
+    "greeting": "Tudo fresquinho! Quer provar algo?",
+    "stock": [["receita_onigiri", 40], ["receita_missoshiru", 60], ["receita_katsu_treino", 90], ["arroz_comum", 6], ["repolho_comum", 6], ["carne_porco", 14], ["farinha_panko", 8], ["ovo_comum", 4], ["molho_tonkatsu", 12], ["sal_marinho", 5], ["gergelim", 5], ["panela_ferro", 140], ["hashi_ouro", 220], ["onigiri", 18], ["bento_especial", 80]]},
+  "reliquias": {"name": "Relíquias do Espírito", "keeper": "Tanuki Misterioso", "npc": "tanuki", "theme": "4a3a5e",
+    "greeting": "Hehe... tudo autêntico. Provavelmente.",
+    "stock": [["amuleto_sorte", 160], ["talisma_vida", 300], ["pergaminho_vento", 280], ["lanterna_espiritual", 350], ["reliquia_kitsune", 700, "flag:boss_sky_defeated"]]},
+  "viajante": {"name": "Comerciante Viajante", "keeper": "Comerciante Viajante", "npc": "mercador", "theme": "6a5a3a", "rotating": true,
+    "greeting": "Kaa! O estoque de hoje é especial.",
+    "stock": [["laco_dourado", 250], ["chapeu_festival", 120], ["elixir", 140], ["minerio_brilhante", 45], ["talisma_vida", 290], ["adagas_vento", 280], ["bento_especial", 75], ["pena_tempestade", 40]]}
+}

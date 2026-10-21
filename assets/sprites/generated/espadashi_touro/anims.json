@@ -1,0 +1,55 @@
+{
+  "id": "espadashi_touro",
+  "cell_w": 144,
+  "cell_h": 144,
+  "origin": [
+    72,
+    137
+  ],
+  "generated": true,
+  "animations": {
+    "idle": {
+      "file": "idle.png",
+      "frames": 4,
+      "fps": 5,
+      "loop": true
+    },
+    "walk": {
+      "file": "walk.png",
+      "frames": 4,
+      "fps": 6,
+      "loop": true
+    },
+    "charge": {
+      "file": "charge.png",
+      "frames": 4,
+      "fps": 12,
+      "loop": true
+    },
+    "attack": {
+      "file": "attack.png",
+      "frames": 5,
+      "fps": 10,
+      "loop": false
+    },
+    "stomp": {
+      "file": "stomp.png",
+      "frames": 4,
+      "fps": 8,
+      "loop": false
+    },
+    "hurt": {
+      "file": "hurt.png",
+      "frames": 2,
+      "fps": 10,
+      "loop": false
+    },
+    "die": {
+      "file": "die.png",
+      "frames": 5,
+      "fps": 6,
+      "loop": false
+    }
+  },
+  "source": "desenhado no estilo do jogo (sem arte da equipe ainda)"
+}

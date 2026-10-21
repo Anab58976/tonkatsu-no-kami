@@ -1,0 +1,18 @@
+{
+  "id": "lulu_transform",
+  "cell_w": 64,
+  "cell_h": 64,
+  "origin": [
+    32,
+    60
+  ],
+  "generated": true,
+  "animations": {
+    "morph": {
+      "file": "morph.png",
+      "frames": 15,
+      "fps": 6,
+      "loop": false
+    }
+  }
+}

@@ -1,0 +1,610 @@
+{
+ "espada_bambu": {
+  "name": "Espada de bambu",
+  "category": "weapon",
+  "kind": "sword",
+  "rarity": "comum",
+  "value": 20,
+  "desc": "Leve e equilibrada. Toda grande cozinheira começa por algum lugar.",
+  "effects": {
+   "attack": 1
+  }
+ },
+ "katana_enferrujada": {
+  "name": "Katana enferrujada",
+  "category": "weapon",
+  "kind": "sword",
+  "rarity": "comum",
+  "value": 60,
+  "desc": "Já viu dias melhores, mas ainda corta.",
+  "effects": {
+   "attack": 2
+  }
+ },
+ "katana_aco": {
+  "name": "Katana de aço",
+  "category": "weapon",
+  "kind": "sword",
+  "rarity": "incomum",
+  "value": 180,
+  "desc": "Forjada por Takeshi. Fio limpo e confiável.",
+  "effects": {
+   "attack": 3
+  }
+ },
+ "katana_espiritual": {
+  "name": "Katana espiritual",
+  "category": "weapon",
+  "kind": "magic",
+  "rarity": "rara",
+  "value": 420,
+  "desc": "Corta o que é físico e o que não é. Brilha perto de espíritos.",
+  "effects": {
+   "attack": 4,
+   "spirit": 1
+  }
+ },
+ "lanca_jade": {
+  "name": "Lança de jade",
+  "category": "weapon",
+  "kind": "spear",
+  "rarity": "rara",
+  "value": 320,
+  "desc": "Alcance maior; golpes precisos.",
+  "effects": {
+   "attack": 3,
+   "reach": 10
+  }
+ },
+ "martelo_ogro": {
+  "name": "Martelo do golem",
+  "category": "weapon",
+  "kind": "hammer",
+  "rarity": "rara",
+  "value": 380,
+  "desc": "Pesado. Empurra os inimigos para longe.",
+  "effects": {
+   "attack": 5,
+   "knockback": 1,
+   "attack_speed": -0.3
+  }
+ },
+ "adagas_vento": {
+  "name": "Adagas de vento",
+  "category": "weapon",
+  "kind": "dagger",
+  "rarity": "rara",
+  "value": 300,
+  "desc": "Ataques muito rápidos, dano menor.",
+  "effects": {
+   "attack": 2,
+   "attack_speed": 0.45
+  }
+ },
+ "espada_celestial": {
+  "name": "Espada celestial",
+  "category": "weapon",
+  "kind": "magic",
+  "rarity": "lendária",
+  "value": 900,
+  "desc": "Forjada com aço que caiu das nuvens.",
+  "effects": {
+   "attack": 7,
+   "crit": 0.1
+  }
+ },
+ "faixa_aprendiz": {
+  "name": "Faixa de aprendiz",
+  "category": "armor",
+  "rarity": "comum",
+  "value": 15,
+  "desc": "A faixa vermelha que Lulu nunca tira.",
+  "effects": {
+   "defense": 0
+  }
+ },
+ "armadura_couro": {
+  "name": "Armadura de couro",
+  "category": "armor",
+  "rarity": "comum",
+  "value": 80,
+  "desc": "Proteção simples para viagens.",
+  "effects": {
+   "defense": 1
+  }
+ },
+ "colete_samurai": {
+  "name": "Colete de samurai",
+  "category": "armor",
+  "rarity": "incomum",
+  "value": 200,
+  "desc": "Placas laqueadas sobre seda.",
+  "effects": {
+   "defense": 2
+  }
+ },
+ "armadura_musgo": {
+  "name": "Armadura de musgo",
+  "category": "armor",
+  "rarity": "incomum",
+  "value": 260,
+  "desc": "Tecida com musgo do pântano. Resiste a veneno.",
+  "effects": {
+   "defense": 2,
+   "res_poison": 1
+  }
+ },
+ "manto_espiritual": {
+  "name": "Manto espiritual",
+  "category": "armor",
+  "rarity": "rara",
+  "value": 420,
+  "desc": "Leve como névoa; espíritos hesitam em tocá-lo.",
+  "effects": {
+   "defense": 3,
+   "res_spirit": 1
+  }
+ },
+ "armadura_celestial": {
+  "name": "Armadura celestial",
+  "category": "armor",
+  "rarity": "rara",
+  "value": 600,
+  "desc": "Ignora parte dos choques elétricos.",
+  "effects": {
+   "defense": 4,
+   "res_shock": 1
+  }
+ },
+ "protecao_real": {
+  "name": "Proteção real",
+  "category": "armor",
+  "rarity": "lendária",
+  "value": 1100,
+  "desc": "Usada pelos guardas pessoais do Rei Porco.",
+  "effects": {
+   "defense": 5,
+   "max_hp": 2
+  }
+ },
+ "pocao_cura": {
+  "name": "Poção de cura",
+  "category": "consumable",
+  "rarity": "comum",
+  "value": 25,
+  "desc": "Recupera 3 corações.",
+  "effects": {
+   "heal": 6
+  }
+ },
+ "pocao_cura_grande": {
+  "name": "Grande poção de cura",
+  "category": "consumable",
+  "rarity": "incomum",
+  "value": 70,
+  "desc": "Recupera toda a vida.",
+  "effects": {
+   "heal": 99
+  }
+ },
+ "pocao_energia": {
+  "name": "Poção de energia",
+  "category": "consumable",
+  "rarity": "comum",
+  "value": 30,
+  "desc": "Recupera toda a energia.",
+  "effects": {
+   "energy": 99
+  }
+ },
+ "antidoto": {
+  "name": "Antídoto",
+  "category": "consumable",
+  "rarity": "comum",
+  "value": 20,
+  "desc": "Cura envenenamento.",
+  "effects": {
+   "cure": "poison"
+  }
+ },
+ "elixir": {
+  "name": "Elixir do Sapo",
+  "category": "consumable",
+  "rarity": "rara",
+  "value": 150,
+  "desc": "Vida e energia completas.",
+  "effects": {
+   "heal": 99,
+   "energy": 99
+  }
+ },
+ "resist_fogo": {
+  "name": "Tônico anti-fogo",
+  "category": "consumable",
+  "rarity": "incomum",
+  "value": 60,
+  "desc": "Resistência a fogo por 2 minutos.",
+  "effects": {
+   "buff": "res_fire",
+   "time": 120
+  }
+ },
+ "resist_choque": {
+  "name": "Tônico anti-choque",
+  "category": "consumable",
+  "rarity": "incomum",
+  "value": 60,
+  "desc": "Resistência a eletricidade por 2 minutos.",
+  "effects": {
+   "buff": "res_shock",
+   "time": 120
+  }
+ },
+ "erva_lunar": {
+  "name": "Erva lunar",
+  "category": "material",
+  "rarity": "comum",
+  "value": 8,
+  "desc": "Ingrediente alquímico colhido à noite."
+ },
+ "minerio_brilhante": {
+  "name": "Minério brilhante",
+  "category": "material",
+  "rarity": "incomum",
+  "value": 35,
+  "desc": "Takeshi adoraria colocar as mãos nisso."
+ },
+ "pena_tempestade": {
+  "name": "Pena da tempestade",
+  "category": "material",
+  "rarity": "incomum",
+  "value": 30,
+  "desc": "Ainda formiga de eletricidade."
+ },
+ "gosma_lodo": {
+  "name": "Gosma de lodo",
+  "category": "material",
+  "rarity": "comum",
+  "value": 6,
+  "desc": "Nojenta. Valiosa para alquimistas."
+ },
+ "cogumelo_azul": {
+  "name": "Cogumelo azul",
+  "category": "material",
+  "rarity": "comum",
+  "value": 10,
+  "desc": "Brilha no escuro."
+ },
+ "repolho_comum": {
+  "name": "Repolho",
+  "category": "cooking",
+  "rarity": "comum",
+  "value": 6,
+  "desc": "Fresco e crocante."
+ },
+ "arroz_comum": {
+  "name": "Arroz",
+  "category": "cooking",
+  "rarity": "comum",
+  "value": 6,
+  "desc": "Base de toda refeição."
+ },
+ "carne_porco": {
+  "name": "Lombo",
+  "category": "cooking",
+  "rarity": "comum",
+  "value": 14,
+  "desc": "Corte para tonkatsu de treino."
+ },
+ "farinha_panko": {
+  "name": "Panko",
+  "category": "cooking",
+  "rarity": "comum",
+  "value": 8,
+  "desc": "Farinha de pão grossa e crocante."
+ },
+ "ovo_comum": {
+  "name": "Ovo",
+  "category": "cooking",
+  "rarity": "comum",
+  "value": 4,
+  "desc": "Cola o panko na carne."
+ },
+ "molho_tonkatsu": {
+  "name": "Molho tonkatsu",
+  "category": "cooking",
+  "rarity": "comum",
+  "value": 12,
+  "desc": "Doce, ácido, encorpado."
+ },
+ "sal_marinho": {
+  "name": "Sal marinho",
+  "category": "cooking",
+  "rarity": "comum",
+  "value": 5,
+  "desc": "Tempero."
+ },
+ "gergelim": {
+  "name": "Gergelim",
+  "category": "cooking",
+  "rarity": "comum",
+  "value": 5,
+  "desc": "Tempero tostado."
+ },
+ "hashi_ouro": {
+  "name": "Hashi de ouro",
+  "category": "cooking",
+  "rarity": "rara",
+  "value": 220,
+  "desc": "Utensílio: melhora a qualidade dos pratos.",
+  "effects": {
+   "cook_quality": 1
+  }
+ },
+ "panela_ferro": {
+  "name": "Panela de ferro",
+  "category": "cooking",
+  "rarity": "incomum",
+  "value": 140,
+  "desc": "Utensílio: mantém o óleo na temperatura certa por mais tempo.",
+  "effects": {
+   "cook_window": 1
+  }
+ },
+ "receita_onigiri": {
+  "name": "Receita: Onigiri",
+  "category": "recipe",
+  "rarity": "comum",
+  "value": 40,
+  "desc": "Bolinho de arroz. Recupera vida.",
+  "recipe": "onigiri"
+ },
+ "receita_missoshiru": {
+  "name": "Receita: Missoshiru",
+  "category": "recipe",
+  "rarity": "comum",
+  "value": 60,
+  "desc": "Sopa quente. Aumenta a defesa por um tempo.",
+  "recipe": "missoshiru"
+ },
+ "receita_katsu_treino": {
+  "name": "Receita: Tonkatsu de treino",
+  "category": "recipe",
+  "rarity": "incomum",
+  "value": 90,
+  "desc": "A sétima tentativa — ou a oitava.",
+  "recipe": "katsu_treino"
+ },
+ "onigiri": {
+  "name": "Onigiri",
+  "category": "consumable",
+  "rarity": "comum",
+  "value": 18,
+  "desc": "Recupera 2 corações.",
+  "effects": {
+   "heal": 4
+  }
+ },
+ "missoshiru": {
+  "name": "Missoshiru",
+  "category": "consumable",
+  "rarity": "comum",
+  "value": 26,
+  "desc": "+1 defesa por 2 minutos.",
+  "effects": {
+   "heal": 2,
+   "buff": "defense",
+   "time": 120
+  }
+ },
+ "katsu_treino": {
+  "name": "Tonkatsu de treino",
+  "category": "consumable",
+  "rarity": "incomum",
+  "value": 45,
+  "desc": "+1 ataque por 2 minutos.",
+  "effects": {
+   "heal": 4,
+   "buff": "attack",
+   "time": 120
+  }
+ },
+ "bento_especial": {
+  "name": "Bentô especial da Yumi",
+  "category": "consumable",
+  "rarity": "rara",
+  "value": 80,
+  "desc": "Vida cheia e +velocidade por 2 minutos.",
+  "effects": {
+   "heal": 99,
+   "buff": "speed",
+   "time": 120
+  }
+ },
+ "amuleto_sorte": {
+  "name": "Amuleto da sorte",
+  "category": "relic",
+  "rarity": "incomum",
+  "value": 160,
+  "desc": "+5% de chance de crítico.",
+  "effects": {
+   "crit": 0.05
+  }
+ },
+ "talisma_vida": {
+  "name": "Talismã da vida",
+  "category": "relic",
+  "rarity": "rara",
+  "value": 300,
+  "desc": "+1 coração máximo.",
+  "effects": {
+   "max_hp": 2
+  }
+ },
+ "pergaminho_vento": {
+  "name": "Pergaminho do vento",
+  "category": "relic",
+  "rarity": "rara",
+  "value": 280,
+  "desc": "+10% de velocidade.",
+  "effects": {
+   "speed": 0.1
+  }
+ },
+ "reliquia_kitsune": {
+  "name": "Relíquia da Kitsune",
+  "category": "relic",
+  "rarity": "lendária",
+  "value": 700,
+  "desc": "Energia se recupera mais rápido.",
+  "effects": {
+   "energy_regen": 1
+  }
+ },
+ "lanterna_espiritual": {
+  "name": "Lanterna espiritual",
+  "category": "relic",
+  "rarity": "rara",
+  "value": 350,
+  "desc": "Revela segredos próximos.",
+  "effects": {
+   "detect": 1
+  }
+ },
+ "laco_dourado": {
+  "name": "Laço dourado",
+  "category": "cosmetic",
+  "rarity": "rara",
+  "value": 250,
+  "desc": "Cosmético: um laço que brilha ao sol."
+ },
+ "chapeu_festival": {
+  "name": "Chapéu de festival",
+  "category": "cosmetic",
+  "rarity": "incomum",
+  "value": 120,
+  "desc": "Cosmético para dias de celebração."
+ },
+ "repolho_mistico": {
+  "name": "Repolho Místico",
+  "category": "ingredient",
+  "rarity": "lendária",
+  "value": 0,
+  "quest": true,
+  "desc": "Guardado pelo Golem de Pedra no Pântano dos Esquecidos.",
+  "icon": "res://assets/sprites/generated/fx/ing_cabbage.png"
+ },
+ "trigo_espectral": {
+  "name": "Farinha Fantasma",
+  "category": "ingredient",
+  "rarity": "lendária",
+  "value": 0,
+  "quest": true,
+  "desc": "Farinha leve como névoa, guardada pelo Lobo Fantasma na Vila Fantasma. Vira o panko perfeito.",
+  "icon": "res://assets/sprites/generated/icons/farinha_fantasma.png"
+ },
+ "arroz_celestial": {
+  "name": "Arroz Celestial",
+  "category": "ingredient",
+  "rarity": "lendária",
+  "value": 0,
+  "quest": true,
+  "desc": "Colhido acima das nuvens, nos templos flutuantes.",
+  "icon": "res://assets/sprites/generated/fx/ing_rice.png"
+ },
+ "carne_encantada": {
+  "name": "Carne Lendária",
+  "category": "ingredient",
+  "rarity": "lendária",
+  "value": 0,
+  "quest": true,
+  "desc": "O corte perfeito para o tonkatsu. Prêmio de quem vencer Espadashi Touro na Arena final.",
+  "icon": "res://assets/sprites/generated/fx/ing_meat.png"
+ },
+ "pimenta_negra_imperial": {
+  "name": "Temperos Imperiais",
+  "category": "ingredient",
+  "rarity": "lendária",
+  "value": 0,
+  "quest": true,
+  "desc": "A mistura de temperos mais orgulhosa do reino, guardada pelo Rei Quente.",
+  "icon": "res://assets/sprites/generated/fx/ing_pepper.png"
+ },
+ "ovo_dourado": {
+  "name": "Ovo Dourado",
+  "category": "ingredient",
+  "rarity": "lendária",
+  "value": 0,
+  "quest": true,
+  "desc": "Um ovo que brilha como o sol, guardado pelo Cisne Dourado na Floresta Mágica.",
+  "icon": "res://assets/sprites/generated/fx/ing_egg.png"
+ },
+ "receita_perdida": {
+  "name": "Receita perdida da Yumi",
+  "category": "quest",
+  "rarity": "incomum",
+  "value": 0,
+  "quest": true,
+  "desc": "Um pergaminho manchado de molho."
+ },
+ "chave_comporta": {
+  "name": "Chave da comporta",
+  "category": "quest",
+  "rarity": "incomum",
+  "value": 0,
+  "quest": true,
+  "desc": "Uma chave em forma de folha de repolho. Abre a grande comporta do pântano."
+ },
+ "chave_templo": {
+  "name": "Chave do templo",
+  "category": "quest",
+  "rarity": "incomum",
+  "value": 0,
+  "quest": true,
+  "desc": "Dada por Okaasan. Abre o portão selado do templo da Vila Fantasma."
+ },
+ "pena_celeste": {
+  "name": "Pena celeste",
+  "category": "quest",
+  "rarity": "incomum",
+  "value": 0,
+  "quest": true,
+  "desc": "Pena leve como uma brisa, deixada pelos espíritos do vento do Reino dos Céus. O monge Kumo procura três.",
+  "icon": "res://assets/sprites/generated/icons/pena_celeste.png"
+ },
+ "amuleto_vento": {
+  "name": "Amuleto do vento",
+  "category": "relic",
+  "rarity": "rara",
+  "value": 220,
+  "desc": "Tecido pelo monge Kumo com três penas celestes. +10% de velocidade.",
+  "effects": {
+   "speed": 0.1
+  }
+ },
+ "nuvem_doce": {
+  "name": "Algodão de nuvem",
+  "category": "material",
+  "rarity": "incomum",
+  "value": 30,
+  "desc": "Nuvem colhida nos jardins suspensos. Derrete na boca."
+ },
+ "semente_luz": {
+  "name": "Semente de Luz",
+  "category": "quest",
+  "rarity": "incomum",
+  "value": 0,
+  "quest": true,
+  "desc": "Semente que brilha como um vaga-lume. Plantada na terra brilhante das margens, faz crescer vitórias-régias gigantes.",
+  "icon": "res://assets/sprites/generated/icons/semente_luz.png"
+ },
+ "pote_tempero": {
+  "name": "Pote de tempero real",
+  "category": "quest",
+  "rarity": "incomum",
+  "value": 0,
+  "quest": true,
+  "desc": "Um dos três potes guardados nos bairros do Reino dos Temperos. O grande pilão do palácio precisa dos três.",
+  "icon": "res://assets/sprites/generated/icons/pote_tempero.png"
+ }
+}

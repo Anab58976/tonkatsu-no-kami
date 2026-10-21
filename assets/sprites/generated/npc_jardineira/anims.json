@@ -1,0 +1,54 @@
+{
+  "id": "npc_jardineira",
+  "cell_w": 40,
+  "cell_h": 44,
+  "origin": [
+    20,
+    42
+  ],
+  "generated": true,
+  "animations": {
+    "idle_down": {
+      "file": "idle_down.png",
+      "frames": 4,
+      "fps": 3,
+      "loop": true
+    },
+    "walk_down": {
+      "file": "walk_down.png",
+      "frames": 4,
+      "fps": 8,
+      "loop": true
+    },
+    "idle_up": {
+      "file": "idle_up.png",
+      "frames": 4,
+      "fps": 3,
+      "loop": true
+    },
+    "walk_up": {
+      "file": "walk_up.png",
+      "frames": 4,
+      "fps": 8,
+      "loop": true
+    },
+    "idle_side": {
+      "file": "idle_side.png",
+      "frames": 4,
+      "fps": 3,
+      "loop": true
+    },
+    "walk_side": {
+      "file": "walk_side.png",
+      "frames": 4,
+      "fps": 8,
+      "loop": true
+    },
+    "talk": {
+      "file": "talk.png",
+      "frames": 4,
+      "fps": 8,
+      "loop": true
+    }
+  }
+}

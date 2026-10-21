@@ -1,0 +1,73 @@
+{
+  "id": "pimentinha",
+  "cell_w": 48,
+  "cell_h": 48,
+  "origin": [
+    24,
+    45
+  ],
+  "generated": false,
+  "animations": {
+    "idle": {
+      "file": "idle.png",
+      "frames": 4,
+      "fps": 6,
+      "loop": true
+    },
+    "walk_down": {
+      "file": "walk_down.png",
+      "frames": 4,
+      "fps": 8,
+      "loop": true
+    },
+    "walk_left": {
+      "file": "walk_left.png",
+      "frames": 4,
+      "fps": 8,
+      "loop": true
+    },
+    "walk_right": {
+      "file": "walk_right.png",
+      "frames": 4,
+      "fps": 8,
+      "loop": true
+    },
+    "walk_up": {
+      "file": "walk_up.png",
+      "frames": 4,
+      "fps": 8,
+      "loop": true
+    },
+    "walk": {
+      "file": "walk.png",
+      "frames": 4,
+      "fps": 8,
+      "loop": true
+    },
+    "jump": {
+      "file": "jump.png",
+      "frames": 4,
+      "fps": 8,
+      "loop": false
+    },
+    "attack": {
+      "file": "attack.png",
+      "frames": 4,
+      "fps": 10,
+      "loop": false
+    },
+    "hurt": {
+      "file": "hurt.png",
+      "frames": 4,
+      "fps": 10,
+      "loop": false
+    },
+    "die": {
+      "file": "die.png",
+      "frames": 4,
+      "fps": 6,
+      "loop": false
+    }
+  },
+  "source": "artist"
+}

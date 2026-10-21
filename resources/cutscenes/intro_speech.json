@@ -1,0 +1,232 @@
+{
+  "_doc": "Discurso oficial do Rei Porco (texto-fonte, secao 5 do master prompt). Os segmentos sao apenas a divisao em paginas de dialogo: a concatenacao deles DEVE ser identica ao texto oficial (verificado por tests/test_intro_speech.gd). Nao corrigir 'Rosta more' nem 'Ton Katsunokami' — podem ser intencionais. voice_file = dublagem da equipe; start/end = trecho de cada fala na gravação; voice = clipe recortado (tools/audio_gen/split_king_voice.py).",
+  "speaker": "Rei Porco",
+  "voice_file": "assets/audio/voice/source/rei_porco_intro.mp3",
+  "official_text": "Rosta more. Carne seca. Óleo frio demais. Uma obra prima do desastre.\n\nMas vi algo em você que nenhuma receita ensina. Você não desistiu.\n\nNem na sétima tentativa. Eu sou o rei do tonkatsu. Guardião do prato perfeito. E você, pequena cozinheira, vai ser testada. Existe um mundo mágico onde vivem os ingredientes lendários, os únicos capazes de fazer o tonkatsu perfeito. Vou enviar você até lá, mas atenção.\n\nAo atravessar o portal, você será transformada em um porquinho. Não é castigo, é parte da prova.\n\nVocê vai cruzar seis regiões. Pântano. Cidade fantasma. Céu. Floresta. Reino dos temperos. E arena. Em cada uma, um guardião protege um ingrediente.\n\nDerrote-os, reúna tudo e volte a ser quem você é. Só então você vai poder preparar o Ton Katsunokami.\n\nExplore cada canto. Nem tudo está no caminho principal. Eu estarei de olho em você, Lulu.\n\nAgora, vá.",
+  "segments": [
+    {
+      "id": "s2_1",
+      "scene": 2,
+      "text": "Rosta more.",
+      "start": 1.77,
+      "end": 2.63,
+      "voice": "res://assets/audio/voice/rei_porco/s2_1.ogg"
+    },
+    {
+      "id": "s2_2",
+      "scene": 2,
+      "text": "Carne seca.",
+      "start": 3.21,
+      "end": 4.39,
+      "voice": "res://assets/audio/voice/rei_porco/s2_2.ogg"
+    },
+    {
+      "id": "s2_3",
+      "scene": 2,
+      "text": "Óleo frio demais.",
+      "start": 5.39,
+      "end": 6.72,
+      "voice": "res://assets/audio/voice/rei_porco/s2_3.ogg"
+    },
+    {
+      "id": "s2_4",
+      "scene": 2,
+      "text": "Uma obra prima do desastre.",
+      "start": 8.43,
+      "end": 10.53,
+      "voice": "res://assets/audio/voice/rei_porco/s2_4.ogg"
+    },
+    {
+      "id": "s3_1",
+      "scene": 3,
+      "text": "Mas vi algo em você que nenhuma receita ensina.",
+      "start": 11.91,
+      "end": 15.74,
+      "voice": "res://assets/audio/voice/rei_porco/s3_1.ogg"
+    },
+    {
+      "id": "s3_2",
+      "scene": 3,
+      "text": "Você não desistiu.",
+      "start": 17.66,
+      "end": 18.52,
+      "voice": "res://assets/audio/voice/rei_porco/s3_2.ogg"
+    },
+    {
+      "id": "s4_1",
+      "scene": 4,
+      "text": "Nem na sétima tentativa.",
+      "start": 20.19,
+      "end": 22.08,
+      "voice": "res://assets/audio/voice/rei_porco/s4_1.ogg"
+    },
+    {
+      "id": "s4_2",
+      "scene": 4,
+      "text": "Eu sou o rei do tonkatsu.",
+      "start": 23.16,
+      "end": 25.56,
+      "voice": "res://assets/audio/voice/rei_porco/s4_2.ogg"
+    },
+    {
+      "id": "s4_3",
+      "scene": 4,
+      "text": "Guardião do prato perfeito.",
+      "start": 26.42,
+      "end": 28.11,
+      "voice": "res://assets/audio/voice/rei_porco/s4_3.ogg"
+    },
+    {
+      "id": "s4_4",
+      "scene": 4,
+      "text": "E você, pequena cozinheira, vai ser testada.",
+      "start": 29.09,
+      "end": 33.47,
+      "voice": "res://assets/audio/voice/rei_porco/s4_4.ogg"
+    },
+    {
+      "id": "s5_1",
+      "scene": 5,
+      "text": "Existe um mundo mágico onde vivem os ingredientes lendários, os únicos capazes de fazer o tonkatsu perfeito.",
+      "start": 35.13,
+      "end": 45.03,
+      "voice": "res://assets/audio/voice/rei_porco/s5_1.ogg"
+    },
+    {
+      "id": "s5_2",
+      "scene": 5,
+      "text": "Vou enviar você até lá, mas atenção.",
+      "start": 46.15,
+      "end": 49.63,
+      "voice": "res://assets/audio/voice/rei_porco/s5_2.ogg"
+    },
+    {
+      "id": "s6_1",
+      "scene": 6,
+      "text": "Ao atravessar o portal, você será transformada em um porquinho.",
+      "start": 50.68,
+      "end": 56.48,
+      "voice": "res://assets/audio/voice/rei_porco/s6_1.ogg"
+    },
+    {
+      "id": "s6_2",
+      "scene": 6,
+      "text": "Não é castigo, é parte da prova.",
+      "start": 57.22,
+      "end": 59.67,
+      "voice": "res://assets/audio/voice/rei_porco/s6_2.ogg"
+    },
+    {
+      "id": "s7_1",
+      "scene": 7,
+      "text": "Você vai cruzar seis regiões.",
+      "start": 60.99,
+      "end": 62.93,
+      "voice": "res://assets/audio/voice/rei_porco/s7_1.ogg"
+    },
+    {
+      "id": "s7_swamp",
+      "scene": 7,
+      "text": "Pântano.",
+      "start": 64.21,
+      "end": 64.66,
+      "voice": "res://assets/audio/voice/rei_porco/s7_swamp.ogg"
+    },
+    {
+      "id": "s7_ghost_city",
+      "scene": 7,
+      "text": "Cidade fantasma.",
+      "start": 65.79,
+      "end": 66.72,
+      "voice": "res://assets/audio/voice/rei_porco/s7_ghost_city.ogg"
+    },
+    {
+      "id": "s7_sky",
+      "scene": 7,
+      "text": "Céu.",
+      "start": 67.7,
+      "end": 68.06,
+      "voice": "res://assets/audio/voice/rei_porco/s7_sky.ogg"
+    },
+    {
+      "id": "s7_spirit_forest",
+      "scene": 7,
+      "text": "Floresta.",
+      "start": 68.98,
+      "end": 69.68,
+      "voice": "res://assets/audio/voice/rei_porco/s7_spirit_forest.ogg"
+    },
+    {
+      "id": "s7_spice_kingdom",
+      "scene": 7,
+      "text": "Reino dos temperos.",
+      "start": 70.57,
+      "end": 71.9,
+      "voice": "res://assets/audio/voice/rei_porco/s7_spice_kingdom.ogg"
+    },
+    {
+      "id": "s7_arena",
+      "scene": 7,
+      "text": "E arena.",
+      "start": 72.83,
+      "end": 73.27,
+      "voice": "res://assets/audio/voice/rei_porco/s7_arena.ogg"
+    },
+    {
+      "id": "s7_2",
+      "scene": 7,
+      "text": "Em cada uma, um guardião protege um ingrediente.",
+      "start": 74.67,
+      "end": 78.41,
+      "voice": "res://assets/audio/voice/rei_porco/s7_2.ogg"
+    },
+    {
+      "id": "s8_1",
+      "scene": 8,
+      "text": "Derrote-os, reúna tudo e volte a ser quem você é.",
+      "start": 79.94,
+      "end": 84.49,
+      "voice": "res://assets/audio/voice/rei_porco/s8_1.ogg"
+    },
+    {
+      "id": "s8_2",
+      "scene": 8,
+      "text": "Só então você vai poder preparar o Ton Katsunokami.",
+      "start": 85.74,
+      "end": 90.41,
+      "voice": "res://assets/audio/voice/rei_porco/s8_2.ogg"
+    },
+    {
+      "id": "s9_1",
+      "scene": 9,
+      "text": "Explore cada canto.",
+      "start": 91.84,
+      "end": 93.07,
+      "voice": "res://assets/audio/voice/rei_porco/s9_1.ogg"
+    },
+    {
+      "id": "s9_2",
+      "scene": 9,
+      "text": "Nem tudo está no caminho principal.",
+      "start": 94.21,
+      "end": 96.27,
+      "voice": "res://assets/audio/voice/rei_porco/s9_2.ogg"
+    },
+    {
+      "id": "s9_3",
+      "scene": 9,
+      "text": "Eu estarei de olho em você, Lulu.",
+      "start": 98.03,
+      "end": 100.28,
+      "voice": "res://assets/audio/voice/rei_porco/s9_3.ogg"
+    },
+    {
+      "id": "s10_1",
+      "scene": 10,
+      "text": "Agora, vá.",
+      "start": 101.68,
+      "end": 103.03,
+      "voice": "res://assets/audio/voice/rei_porco/s10_1.ogg"
+    }
+  ]
+}

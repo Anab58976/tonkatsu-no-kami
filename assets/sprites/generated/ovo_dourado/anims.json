@@ -1,0 +1,31 @@
+{
+  "id": "ovo_dourado",
+  "cell_w": 32,
+  "cell_h": 32,
+  "origin": [
+    16,
+    28
+  ],
+  "generated": false,
+  "animations": {
+    "float": {
+      "file": "float.png",
+      "frames": 10,
+      "fps": 8,
+      "loop": true
+    },
+    "spin": {
+      "file": "spin.png",
+      "frames": 8,
+      "fps": 10,
+      "loop": true
+    },
+    "collect": {
+      "file": "collect.png",
+      "frames": 4,
+      "fps": 8,
+      "loop": false
+    }
+  },
+  "source": "artist"
+}

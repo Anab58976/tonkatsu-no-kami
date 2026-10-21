@@ -1,0 +1,42 @@
+{
+  "id": "cogumelo",
+  "cell_w": 64,
+  "cell_h": 64,
+  "origin": [
+    32,
+    60
+  ],
+  "generated": true,
+  "animations": {
+    "idle": {
+      "file": "idle.png",
+      "frames": 4,
+      "fps": 5,
+      "loop": true
+    },
+    "walk": {
+      "file": "walk.png",
+      "frames": 4,
+      "fps": 8,
+      "loop": true
+    },
+    "attack": {
+      "file": "attack.png",
+      "frames": 4,
+      "fps": 10,
+      "loop": false
+    },
+    "hurt": {
+      "file": "hurt.png",
+      "frames": 2,
+      "fps": 12,
+      "loop": false
+    },
+    "die": {
+      "file": "die.png",
+      "frames": 4,
+      "fps": 8,
+      "loop": false
+    }
+  }
+}

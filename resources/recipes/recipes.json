@@ -1,0 +1,23 @@
+{
+  "onigiri": {"name": "Onigiri", "result": "onigiri", "known": true,
+    "ingredients": {"arroz_comum": 1},
+    "steps": [{"type": "select"}, {"type": "rhythm", "label": "Molde o arroz", "beats": 4}, {"type": "plate", "label": "Embrulhe a alga", "keys": 3}]},
+  "missoshiru": {"name": "Missoshiru", "result": "missoshiru",
+    "ingredients": {"sal_marinho": 1, "repolho_comum": 1},
+    "steps": [{"type": "select"}, {"type": "chop", "label": "Corte o repolho", "cuts": 4}, {"type": "heat", "label": "Aqueça o caldo sem ferver", "target": [0.45, 0.65], "time": 4.0}, {"type": "plate", "label": "Sirva", "keys": 3}]},
+  "katsu_treino": {"name": "Tonkatsu de treino", "result": "katsu_treino",
+    "ingredients": {"carne_porco": 1, "ovo_comum": 1, "farinha_panko": 1},
+    "steps": [{"type": "select"}, {"type": "batter", "label": "Empane: farinha, ovo, panko", "sequence": ["Farinha", "Ovo", "Panko"]}, {"type": "heat", "label": "Frite a 170 graus", "target": [0.55, 0.72], "time": 5.0}, {"type": "rest", "label": "Descanse antes de cortar"}, {"type": "chop", "label": "Fatie", "cuts": 5}]},
+  "tonkatsu_no_kami": {"name": "Tonkatsu no Kami", "result": "", "final": true,
+    "ingredients": {"repolho_mistico": 1, "trigo_espectral": 1, "arroz_celestial": 1, "carne_encantada": 1, "pimenta_negra_imperial": 1, "ovo_dourado": 1},
+    "steps": [
+      {"type": "select"},
+      {"type": "chop", "label": "Corte o Repolho Místico bem fininho", "cuts": 6},
+      {"type": "rhythm", "label": "Peneire a Farinha Fantasma para o panko", "beats": 6},
+      {"type": "batter", "label": "Empane a Carne Lendária", "sequence": ["Farinha", "Ovo Dourado", "Panko espectral", "Pimenta Imperial"]},
+      {"type": "heat", "label": "Frite no ponto perfeito", "target": [0.58, 0.7], "time": 7.0},
+      {"type": "rest", "label": "Deixe descansar — paciência"},
+      {"type": "chop", "label": "Fatie em sete cortes", "cuts": 7},
+      {"type": "plate", "label": "Monte com o Arroz Celestial", "keys": 5}
+    ]}
+}

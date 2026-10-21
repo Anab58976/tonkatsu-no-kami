@@ -1,0 +1,109 @@
+{
+  "id": "rei_pimenta",
+  "cell_w": 96,
+  "cell_h": 96,
+  "origin": [
+    48,
+    90
+  ],
+  "generated": false,
+  "animations": {
+    "idle": {
+      "file": "idle.png",
+      "frames": 4,
+      "fps": 6,
+      "loop": true
+    },
+    "walk_down": {
+      "file": "walk_down.png",
+      "frames": 4,
+      "fps": 8,
+      "loop": true
+    },
+    "walk_left": {
+      "file": "walk_left.png",
+      "frames": 4,
+      "fps": 8,
+      "loop": true
+    },
+    "walk_right": {
+      "file": "walk_right.png",
+      "frames": 4,
+      "fps": 8,
+      "loop": true
+    },
+    "walk_up": {
+      "file": "walk_up.png",
+      "frames": 4,
+      "fps": 8,
+      "loop": true
+    },
+    "walk": {
+      "file": "walk.png",
+      "frames": 4,
+      "fps": 8,
+      "loop": true
+    },
+    "run_down": {
+      "file": "run_down.png",
+      "frames": 4,
+      "fps": 12,
+      "loop": true
+    },
+    "run_left": {
+      "file": "run_left.png",
+      "frames": 4,
+      "fps": 12,
+      "loop": true
+    },
+    "run_right": {
+      "file": "run_right.png",
+      "frames": 4,
+      "fps": 12,
+      "loop": true
+    },
+    "run_up": {
+      "file": "run_up.png",
+      "frames": 4,
+      "fps": 12,
+      "loop": true
+    },
+    "run": {
+      "file": "run.png",
+      "frames": 4,
+      "fps": 12,
+      "loop": true
+    },
+    "jump": {
+      "file": "jump.png",
+      "frames": 4,
+      "fps": 8,
+      "loop": false
+    },
+    "fall": {
+      "file": "fall.png",
+      "frames": 4,
+      "fps": 8,
+      "loop": false
+    },
+    "attack": {
+      "file": "attack.png",
+      "frames": 4,
+      "fps": 10,
+      "loop": false
+    },
+    "hurt": {
+      "file": "hurt.png",
+      "frames": 4,
+      "fps": 10,
+      "loop": false
+    },
+    "die": {
+      "file": "die.png",
+      "frames": 4,
+      "fps": 6,
+      "loop": false
+    }
+  },
+  "source": "artist"
+}

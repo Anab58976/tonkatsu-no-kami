@@ -1,0 +1,28 @@
+{
+  "trees": {
+    "combate": {"name": "Combate", "skills": [
+      {"id": "golpe_giratorio", "name": "Golpe giratório", "cost": 1, "requires": [], "energy": 2, "active": true, "desc": "Habilidade (K): gira atingindo tudo ao redor."},
+      {"id": "ataque_carregado_2", "name": "Ataque carregado+", "cost": 1, "requires": [], "desc": "O golpe carregado causa o triplo de dano."},
+      {"id": "esquiva_aprimorada", "name": "Esquiva aprimorada", "cost": 1, "requires": [], "desc": "Esquivas mais longas e com recarga menor."},
+      {"id": "contra_ataque", "name": "Contra-ataque", "cost": 2, "requires": ["esquiva_aprimorada"], "desc": "Atacar logo após uma esquiva perfeita causa dano crítico."},
+      {"id": "combos", "name": "Combos", "cost": 2, "requires": ["ataque_carregado_2"], "desc": "O terceiro golpe seguido causa dano dobrado."},
+      {"id": "dano_elemental", "name": "Dano elemental", "cost": 2, "requires": ["golpe_giratorio"], "desc": "Com Infusão Elemental, golpes queimam inimigos."}
+    ]},
+    "exploracao": {"name": "Exploração", "skills": [
+      {"id": "resistencia_ambiental", "name": "Resistência ambiental", "cost": 0, "requires": [], "unlock": "flag:boss_swamp_defeated", "desc": "Terrenos venenosos não causam dano. (Golem de Pedra)"},
+      {"id": "visao_espiritual", "name": "Visão Espiritual", "cost": 0, "requires": [], "unlock": "flag:boss_ghost_city_defeated", "active": true, "energy": 1, "desc": "Alterna entre o mundo físico e o espiritual. (Lobo Fantasma)"},
+      {"id": "impulso_celestial", "name": "Impulso Celestial", "cost": 0, "requires": [], "unlock": "flag:boss_sky_defeated", "active": true, "energy": 1, "desc": "Um salto impulsionado pelo vento. (Guardião da Tempestade)"},
+      {"id": "manipulacao_raizes", "name": "Manipulação de Raízes", "cost": 0, "requires": [], "unlock": "flag:boss_spirit_forest_defeated", "active": true, "energy": 1, "desc": "Move raízes e cria pontes naturais. (Cisne Dourado)"},
+      {"id": "infusao_elemental", "name": "Infusão Elemental", "cost": 0, "requires": [], "unlock": "flag:boss_spice_kingdom_defeated", "active": true, "energy": 2, "desc": "Combina poderes anteriores. (Rei Quente)"},
+      {"id": "deteccao_segredos", "name": "Detecção de segredos", "cost": 1, "requires": [], "desc": "Segredos próximos brilham levemente."}
+    ]},
+    "culinaria": {"name": "Culinária", "skills": [
+      {"id": "receitas_avancadas", "name": "Receitas avançadas", "cost": 1, "requires": [], "desc": "Desbloqueia receitas de nível 2 na cozinha."},
+      {"id": "bonus_refeicoes", "name": "Bônus de refeições", "cost": 1, "requires": [], "desc": "Efeitos de refeições duram 50% mais."},
+      {"id": "preparacao_aprimorada", "name": "Preparação aprimorada", "cost": 1, "requires": ["receitas_avancadas"], "desc": "Janela de acerto maior nos minigames."},
+      {"id": "aproveitamento", "name": "Aproveitamento de ingredientes", "cost": 2, "requires": ["bonus_refeicoes"], "desc": "Chance de não gastar ingredientes comuns."},
+      {"id": "melhoria_utensilios", "name": "Melhorias de utensílios", "cost": 2, "requires": ["preparacao_aprimorada"], "desc": "Utensílios contam como um nível acima."}
+    ]}
+  },
+  "levels": {"xp_base": 20, "xp_growth": 1.35, "per_level": {"max_hp": 1, "attack": 0.34, "max_energy": 0.25}}
+}

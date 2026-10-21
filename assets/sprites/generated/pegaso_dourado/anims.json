@@ -1,0 +1,61 @@
+{
+  "id": "pegaso_dourado",
+  "cell_w": 128,
+  "cell_h": 128,
+  "origin": [
+    64,
+    122
+  ],
+  "generated": false,
+  "animations": {
+    "idle": {
+      "file": "idle.png",
+      "frames": 4,
+      "fps": 6,
+      "loop": true
+    },
+    "walk": {
+      "file": "walk.png",
+      "frames": 6,
+      "fps": 8,
+      "loop": true
+    },
+    "run": {
+      "file": "run.png",
+      "frames": 6,
+      "fps": 12,
+      "loop": true
+    },
+    "fly": {
+      "file": "fly.png",
+      "frames": 6,
+      "fps": 10,
+      "loop": true
+    },
+    "jump": {
+      "file": "jump.png",
+      "frames": 4,
+      "fps": 8,
+      "loop": false
+    },
+    "attack": {
+      "file": "attack.png",
+      "frames": 4,
+      "fps": 10,
+      "loop": false
+    },
+    "hurt": {
+      "file": "hurt.png",
+      "frames": 3,
+      "fps": 10,
+      "loop": false
+    },
+    "die": {
+      "file": "die.png",
+      "frames": 4,
+      "fps": 6,
+      "loop": false
+    }
+  },
+  "source": "artist"
+}

@@ -1,0 +1,144 @@
+{
+  "id": "rei_porco",
+  "cell_w": 80,
+  "cell_h": 80,
+  "origin": [
+    40,
+    76
+  ],
+  "generated": true,
+  "animations": {
+    "idle": {
+      "file": "idle.png",
+      "frames": 6,
+      "fps": 5,
+      "loop": true
+    },
+    "walk": {
+      "file": "walk.png",
+      "frames": 4,
+      "fps": 6,
+      "loop": true
+    },
+    "talk": {
+      "file": "talk.png",
+      "frames": 5,
+      "fps": 8,
+      "loop": true
+    },
+    "talk_stern": {
+      "file": "talk_stern.png",
+      "frames": 3,
+      "fps": 8,
+      "loop": true
+    },
+    "inspect": {
+      "file": "inspect.png",
+      "frames": 3,
+      "fps": 3,
+      "loop": false
+    },
+    "arms_crossed": {
+      "file": "arms_crossed.png",
+      "frames": 2,
+      "fps": 2,
+      "loop": true
+    },
+    "arms_crossed_talk": {
+      "file": "arms_crossed_talk.png",
+      "frames": 4,
+      "fps": 8,
+      "loop": true
+    },
+    "point": {
+      "file": "point.png",
+      "frames": 3,
+      "fps": 8,
+      "loop": true
+    },
+    "point_side": {
+      "file": "point_side.png",
+      "frames": 2,
+      "fps": 6,
+      "loop": true
+    },
+    "warm": {
+      "file": "warm.png",
+      "frames": 2,
+      "fps": 2,
+      "loop": true
+    },
+    "warm_talk": {
+      "file": "warm_talk.png",
+      "frames": 4,
+      "fps": 8,
+      "loop": true
+    },
+    "arms_open": {
+      "file": "arms_open.png",
+      "frames": 3,
+      "fps": 6,
+      "loop": true
+    },
+    "grand_talk": {
+      "file": "grand_talk.png",
+      "frames": 4,
+      "fps": 8,
+      "loop": true
+    },
+    "point_up_talk": {
+      "file": "point_up_talk.png",
+      "frames": 4,
+      "fps": 8,
+      "loop": true
+    },
+    "stare": {
+      "file": "stare.png",
+      "frames": 2,
+      "fps": 3,
+      "loop": true
+    },
+    "stare_talk": {
+      "file": "stare_talk.png",
+      "frames": 4,
+      "fps": 8,
+      "loop": true
+    },
+    "extend_arm": {
+      "file": "extend_arm.png",
+      "frames": 2,
+      "fps": 4,
+      "loop": true
+    },
+    "wave": {
+      "file": "wave.png",
+      "frames": 4,
+      "fps": 6,
+      "loop": true
+    },
+    "taste": {
+      "file": "taste.png",
+      "frames": 4,
+      "fps": 4,
+      "loop": true
+    },
+    "shocked": {
+      "file": "shocked.png",
+      "frames": 2,
+      "fps": 6,
+      "loop": true
+    },
+    "joy": {
+      "file": "joy.png",
+      "frames": 2,
+      "fps": 5,
+      "loop": true
+    },
+    "thinking": {
+      "file": "thinking.png",
+      "frames": 2,
+      "fps": 2,
+      "loop": true
+    }
+  }
+}

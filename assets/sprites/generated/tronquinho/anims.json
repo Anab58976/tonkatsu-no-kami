@@ -1,0 +1,97 @@
+{
+  "id": "tronquinho",
+  "cell_w": 48,
+  "cell_h": 48,
+  "origin": [
+    24,
+    44
+  ],
+  "generated": false,
+  "animations": {
+    "idle": {
+      "file": "idle.png",
+      "frames": 4,
+      "fps": 6,
+      "loop": true
+    },
+    "walk_right": {
+      "file": "walk_right.png",
+      "frames": 8,
+      "fps": 8,
+      "loop": true
+    },
+    "walk_left": {
+      "file": "walk_left.png",
+      "frames": 8,
+      "fps": 8,
+      "loop": true
+    },
+    "walk_up": {
+      "file": "walk_up.png",
+      "frames": 8,
+      "fps": 8,
+      "loop": true
+    },
+    "walk_down": {
+      "file": "walk_down.png",
+      "frames": 7,
+      "fps": 8,
+      "loop": true
+    },
+    "run_right": {
+      "file": "run_right.png",
+      "frames": 8,
+      "fps": 12,
+      "loop": true
+    },
+    "run_left": {
+      "file": "run_left.png",
+      "frames": 9,
+      "fps": 12,
+      "loop": true
+    },
+    "run_up": {
+      "file": "run_up.png",
+      "frames": 8,
+      "fps": 12,
+      "loop": true
+    },
+    "run_down": {
+      "file": "run_down.png",
+      "frames": 7,
+      "fps": 12,
+      "loop": true
+    },
+    "jump": {
+      "file": "jump.png",
+      "frames": 8,
+      "fps": 8,
+      "loop": false
+    },
+    "attack": {
+      "file": "attack.png",
+      "frames": 5,
+      "fps": 10,
+      "loop": false
+    },
+    "hurt": {
+      "file": "hurt.png",
+      "frames": 4,
+      "fps": 10,
+      "loop": false
+    },
+    "die": {
+      "file": "die.png",
+      "frames": 6,
+      "fps": 8,
+      "loop": false
+    },
+    "walk": {
+      "file": "walk_down.png",
+      "frames": 7,
+      "fps": 8,
+      "loop": true
+    }
+  },
+  "source": "artist"
+}

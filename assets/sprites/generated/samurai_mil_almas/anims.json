@@ -1,0 +1,48 @@
+{
+  "id": "samurai_mil_almas",
+  "cell_w": 112,
+  "cell_h": 112,
+  "origin": [
+    56,
+    104
+  ],
+  "generated": true,
+  "animations": {
+    "idle": {
+      "file": "idle.png",
+      "frames": 4,
+      "fps": 5,
+      "loop": true
+    },
+    "walk": {
+      "file": "walk.png",
+      "frames": 4,
+      "fps": 7,
+      "loop": true
+    },
+    "attack": {
+      "file": "attack.png",
+      "frames": 4,
+      "fps": 9,
+      "loop": false
+    },
+    "stance": {
+      "file": "stance.png",
+      "frames": 4,
+      "fps": 6,
+      "loop": true
+    },
+    "raise": {
+      "file": "raise.png",
+      "frames": 4,
+      "fps": 6,
+      "loop": true
+    },
+    "hurt": {
+      "file": "hurt.png",
+      "frames": 2,
+      "fps": 12,
+      "loop": false
+    }
+  }
+}

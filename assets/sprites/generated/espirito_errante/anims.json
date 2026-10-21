@@ -1,0 +1,44 @@
+{
+  "id": "espirito_errante",
+  "cell_w": 48,
+  "cell_h": 48,
+  "origin": [
+    24,
+    42
+  ],
+  "generated": false,
+  "animations": {
+    "idle": {
+      "file": "idle.png",
+      "frames": 4,
+      "fps": 6,
+      "loop": true
+    },
+    "walk": {
+      "file": "walk.png",
+      "frames": 4,
+      "fps": 8,
+      "loop": true
+    },
+    "attack": {
+      "file": "attack.png",
+      "frames": 3,
+      "fps": 8,
+      "loop": false
+    },
+    "hurt": {
+      "file": "hurt.png",
+      "frames": 4,
+      "fps": 12,
+      "loop": false
+    },
+    "die": {
+      "file": "die.png",
+      "frames": 4,
+      "fps": 8,
+      "loop": false
+    }
+  },
+  "source": "artist",
+  "faces_left": false
+}

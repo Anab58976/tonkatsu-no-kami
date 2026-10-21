@@ -1,0 +1,220 @@
+{
+ "shared": {
+  "source": "núcleo comum",
+  "colors": [
+   "2a1613",
+   "4a2c24",
+   "f3e7cf",
+   "dccaa6",
+   "5c3a28",
+   "a3252e",
+   "c94a45",
+   "f0be3c",
+   "fff0a0",
+   "e99a98",
+   "f0a6a6",
+   "c8706e"
+  ],
+  "names": [
+   "ink (contorno)",
+   "ink suave",
+   "papel washi",
+   "papel sombra",
+   "madeira",
+   "laca vermelha",
+   "laca clara",
+   "dourado",
+   "dourado claro",
+   "sakura",
+   "Lulu rosa",
+   "Lulu sombra"
+  ]
+ },
+ "hub": {
+  "name": "Vila do Rei Porco (dia)",
+  "source": [
+   "assets/sprites/source/tiles_village_day.png"
+  ],
+  "colors": [
+   "202121",
+   "533121",
+   "1c542d",
+   "3d4858",
+   "095e99",
+   "824b27",
+   "087ebe",
+   "527f26",
+   "6d6662",
+   "b05930",
+   "5074b4",
+   "c74688",
+   "c38345",
+   "89ac26",
+   "af9e8c",
+   "f579a8",
+   "58c1f2",
+   "e6b56c",
+   "f8b9c7",
+   "e0ebf2"
+  ]
+ },
+ "swamp": {
+  "name": "Pântano dos Esquecidos",
+  "source": [
+   "assets/sprites/tiles/ground/swamp_grass_0.png",
+   "assets/sprites/tiles/ground/swamp_mud_0.png",
+   "assets/sprites/tiles/ground/swamp_stone_0.png",
+   "assets/sprites/tiles/ground/swamp_water_0.png",
+   "assets/sprites/source/enemy_mushroom_golem.png"
+  ],
+  "colors": [
+   "252220",
+   "39412e",
+   "544e37",
+   "a24024",
+   "5d6a30",
+   "77634e",
+   "839031",
+   "df632d",
+   "a27b52",
+   "aa9779",
+   "a1ad35",
+   "c89964",
+   "f99246",
+   "c4b393",
+   "f3c07f",
+   "fce09f"
+  ]
+ },
+ "ghost_city": {
+  "name": "Vila Fantasma",
+  "source": [
+   "assets/sprites/source/tiles_village_night.png",
+   "assets/sprites/source/ref_map_village_night.png"
+  ],
+  "colors": [
+   "050405",
+   "0f0f11",
+   "3a0c09",
+   "171c26",
+   "221a15",
+   "3f201d",
+   "312b28",
+   "262d3c",
+   "661d16",
+   "4e3628",
+   "423f43",
+   "8e3418",
+   "654838",
+   "58575e",
+   "d2291a",
+   "8a583d",
+   "b76d30",
+   "9a7675",
+   "e79541",
+   "f4d587"
+  ]
+ },
+ "sky": {
+  "name": "Reino dos Céus",
+  "source": [
+   "assets/sprites/tiles/ground/sky_grass_0.png",
+   "assets/sprites/tiles/ground/sky_marble_0.png",
+   "assets/sprites/tiles/ground/sky_gold_0.png",
+   "assets/sprites/tiles/ground/sky_cloud_0.png",
+   "assets/sprites/generated/pegaso_dourado/idle.png"
+  ],
+  "colors": [
+   "482308",
+   "875122",
+   "af6d2c",
+   "a07b60",
+   "ce8c43",
+   "70ba74",
+   "bb9d8e",
+   "e1aa5c",
+   "cfb6a9",
+   "dfc47e",
+   "c7cacf",
+   "f6c37c",
+   "e0cabe",
+   "c6d6ec",
+   "f4ddc0",
+   "f8f3ec"
+  ]
+ },
+ "spirit_forest": {
+  "name": "Floresta Espiritual",
+  "source": [
+   "assets/sprites/source/tiles_spirit_forest_a.png",
+   "assets/sprites/source/tiles_spirit_forest_b.png"
+  ],
+  "colors": [
+   "010b1d",
+   "0a1f2d",
+   "072d47",
+   "1c3338",
+   "08425b",
+   "233c57",
+   "09547b",
+   "2d4d46",
+   "1f625e",
+   "385674",
+   "11709c",
+   "466e5d",
+   "4e7094",
+   "31847b",
+   "2094c1",
+   "6493b7",
+   "669f7f",
+   "3bbee5",
+   "85d2e6",
+   "d7f2f3"
+  ]
+ },
+ "spice_castle": {
+  "name": "Reino dos Temperos (castelo)",
+  "source": [
+   "assets/sprites/source/docx/Monstro_Pimenta_Coroado/image1.png"
+  ],
+  "colors": [
+   "130901",
+   "6a0902",
+   "302d05",
+   "ad0d03",
+   "573915",
+   "556205",
+   "e71f06",
+   "945307",
+   "7a5e47",
+   "8d9212",
+   "f95842",
+   "daa07d",
+   "d9c01f",
+   "f3dec2"
+  ]
+ },
+ "arena": {
+  "name": "Arena dos Deuses (coliseu)",
+  "source": [
+   "assets/sprites/generated/cisne_dourado/idle.png",
+   "assets/sprites/generated/lobo_infernal/idle.png"
+  ],
+  "colors": [
+   "110306",
+   "511b0d",
+   "960006",
+   "eb0004",
+   "805431",
+   "dc6710",
+   "b47b42",
+   "a88168",
+   "c5a389",
+   "eeae3f",
+   "f5c773",
+   "e5caac",
+   "f7e5ca",
+   "fcf7e6"
+  ]
+ }
+}

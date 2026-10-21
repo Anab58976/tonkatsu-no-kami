@@ -1,0 +1,61 @@
+{
+  "id": "lobo_infernal",
+  "cell_w": 64,
+  "cell_h": 64,
+  "origin": [
+    32,
+    60
+  ],
+  "generated": false,
+  "animations": {
+    "idle": {
+      "file": "idle.png",
+      "frames": 4,
+      "fps": 6,
+      "loop": true
+    },
+    "walk": {
+      "file": "walk.png",
+      "frames": 4,
+      "fps": 8,
+      "loop": true
+    },
+    "run": {
+      "file": "run.png",
+      "frames": 4,
+      "fps": 12,
+      "loop": true
+    },
+    "jump": {
+      "file": "jump.png",
+      "frames": 4,
+      "fps": 8,
+      "loop": false
+    },
+    "fall": {
+      "file": "fall.png",
+      "frames": 4,
+      "fps": 8,
+      "loop": false
+    },
+    "attack": {
+      "file": "attack.png",
+      "frames": 4,
+      "fps": 12,
+      "loop": false
+    },
+    "hurt": {
+      "file": "hurt.png",
+      "frames": 4,
+      "fps": 10,
+      "loop": false
+    },
+    "die": {
+      "file": "die.png",
+      "frames": 4,
+      "fps": 8,
+      "loop": false
+    }
+  },
+  "source": "artist"
+}

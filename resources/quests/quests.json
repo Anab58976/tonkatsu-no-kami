@@ -1,0 +1,282 @@
+{
+ "main_six_ingredients": {
+  "title": "Os Seis Ingredientes",
+  "type": "main",
+  "desc": "O Rei Porco enviou Lulu ao mundo mágico. Reúna os seis ingredientes lendários para preparar o Tonkatsu no Kami e voltar à forma humana.",
+  "objectives": [
+   {
+    "id": "explore_hub",
+    "text": "Explore a Vila do Rei Porco",
+    "type": "flag",
+    "target": "visited_castle",
+    "count": 1
+   },
+   {
+    "id": "repolho",
+    "text": "Recupere o Repolho Místico (Pântano)",
+    "type": "item",
+    "target": "repolho_mistico",
+    "count": 1
+   },
+   {
+    "id": "trigo",
+    "text": "Recupere a Farinha Fantasma (Vila Fantasma)",
+    "type": "item",
+    "target": "trigo_espectral",
+    "count": 1
+   },
+   {
+    "id": "arroz",
+    "text": "Recupere o Arroz Celestial (Céu)",
+    "type": "item",
+    "target": "arroz_celestial",
+    "count": 1
+   },
+   {
+    "id": "carne",
+    "text": "Recupere o Ovo Dourado (Floresta Mágica)",
+    "type": "item",
+    "target": "ovo_dourado",
+    "count": 1
+   },
+   {
+    "id": "pimenta",
+    "text": "Recupere os Temperos Imperiais (Reino dos Temperos)",
+    "type": "item",
+    "target": "pimenta_negra_imperial",
+    "count": 1
+   },
+   {
+    "id": "ovo",
+    "text": "Recupere a Carne Lendária (Arena final)",
+    "type": "item",
+    "target": "carne_encantada",
+    "count": 1
+   }
+  ],
+  "rewards": {
+   "koban": 0,
+   "items": {}
+  }
+ },
+ "side_spirit_lanterns": {
+  "title": "Ajudar um espírito",
+  "type": "side",
+  "desc": "O Espírito Kaeru pediu que Lulu reacendesse as três lanternas espirituais do Pântano dos Esquecidos.",
+  "objectives": [
+   {
+    "id": "l1",
+    "text": "Lanterna do bosque de cogumelos",
+    "type": "flag",
+    "target": "swamp_lantern_1",
+    "count": 1
+   },
+   {
+    "id": "l2",
+    "text": "Lanterna perto do santuário em ruínas",
+    "type": "flag",
+    "target": "swamp_lantern_2",
+    "count": 1
+   },
+   {
+    "id": "l3",
+    "text": "Lanterna além do grande canal",
+    "type": "flag",
+    "target": "swamp_lantern_3",
+    "count": 1
+   }
+  ],
+  "rewards": {
+   "koban": 120,
+   "items": {
+    "talisma_vida": 1
+   }
+  }
+ },
+ "side_takeshi_ore": {
+  "title": "Minério para o ferreiro",
+  "type": "side",
+  "desc": "Takeshi precisa de um minério brilhante. Dizem que um golem de musgo guarda um no santuário em ruínas do pântano.",
+  "objectives": [
+   {
+    "id": "ore",
+    "text": "Obtenha um Minério brilhante",
+    "type": "item",
+    "target": "minerio_brilhante",
+    "count": 1
+   },
+   {
+    "id": "deliver",
+    "text": "Entregue o minério ao Takeshi",
+    "type": "flag",
+    "target": "delivered_ore",
+    "count": 1
+   }
+  ],
+  "rewards": {
+   "koban": 150,
+   "items": {
+    "katana_aco": 1
+   }
+  }
+ },
+ "side_ghost_house": {
+  "title": "Investigar uma casa",
+  "type": "side",
+  "desc": "O fantasma de uma mãe não lembra por que espera. Suas lembranças estão espalhadas pelas casas do Bairro das Lanternas — algumas só aparecem no mundo espiritual.",
+  "objectives": [
+   {
+    "id": "c1",
+    "text": "Lembrança na casa do leste (mundo espiritual)",
+    "type": "flag",
+    "target": "gc_clue_1",
+    "count": 1
+   },
+   {
+    "id": "c2",
+    "text": "Lembrança na casa alta (mundo físico)",
+    "type": "flag",
+    "target": "gc_clue_2",
+    "count": 1
+   },
+   {
+    "id": "c3",
+    "text": "Lembrança na casa da árvore (mundo espiritual)",
+    "type": "flag",
+    "target": "gc_clue_3",
+    "count": 1
+   },
+   {
+    "id": "talk",
+    "text": "Fale com Okaasan",
+    "type": "flag",
+    "target": "gc_mother_done",
+    "count": 1
+   }
+  ],
+  "rewards": {
+   "koban": 100,
+   "items": {}
+  }
+ },
+ "side_sky_feathers": {
+  "title": "Penas para o monge",
+  "type": "side",
+  "desc": "O monge Kumo, perdido no Jardim de Cristal, quer tecer um amuleto do vento. Ele precisa de três penas celestes — os espíritos do vento do Reino dos Céus costumam deixá-las cair.",
+  "objectives": [
+   {
+    "id": "feathers",
+    "text": "Reúna 3 penas celestes",
+    "type": "item",
+    "target": "pena_celeste",
+    "count": 3
+   },
+   {
+    "id": "return",
+    "text": "Leve as penas ao monge Kumo",
+    "type": "flag",
+    "target": "sky_kumo_done",
+    "count": 1
+   }
+  ],
+  "rewards": {
+   "koban": 60,
+   "items": {}
+  }
+ },
+ "side_sky_dragon": {
+  "title": "O ninho dos espíritos",
+  "type": "side",
+  "desc": "Três espíritos guardiões vigiam o Ninho a leste das ilhas. Kumo diz que eles protegem um tesouro antigo.",
+  "objectives": [
+   {
+    "id": "reach",
+    "text": "Chegue ao Ninho dos Espíritos pelas correntes de vento",
+    "type": "flag",
+    "target": "sky_reached_nest",
+    "count": 1
+   },
+   {
+    "id": "kill",
+    "text": "Derrote os 3 espíritos guardiões",
+    "type": "kills",
+    "target": "espirito_ceu_guardiao",
+    "count": 3
+   }
+  ],
+  "rewards": {
+   "koban": 120,
+   "items": {
+    "nuvem_doce": 2
+   }
+  }
+ },
+ "side_forest_kodama": {
+  "title": "Os kodamas perdidos",
+  "type": "side",
+  "desc": "A Árvore Ancestral da Floresta Mágica perdeu três kodamas quando o rio subiu. Encontre-os e fale com eles.",
+  "objectives": [
+   {
+    "id": "k1",
+    "text": "Kodama dos cogumelos (sudoeste)",
+    "type": "flag",
+    "target": "forest_kodama_1",
+    "count": 1
+   },
+   {
+    "id": "k2",
+    "text": "Kodama além do rio (leste)",
+    "type": "flag",
+    "target": "forest_kodama_2",
+    "count": 1
+   },
+   {
+    "id": "k3",
+    "text": "Kodama no limite norte",
+    "type": "flag",
+    "target": "forest_kodama_3",
+    "count": 1
+   },
+   {
+    "id": "back",
+    "text": "Volte à Árvore Ancestral",
+    "type": "flag",
+    "target": "forest_kodama_done",
+    "count": 1
+   }
+  ],
+  "rewards": {
+   "koban": 150,
+   "items": {
+    "pocao_cura": 3
+   }
+  }
+ },
+ "side_spice_chef": {
+  "title": "O banquete do Chef Pimenta",
+  "type": "side",
+  "desc": "O Chef Pimenta do mercado quer pimentas-fantasma para o banquete real. As pimentinhas roxas costumam carregá-las.",
+  "objectives": [
+   {
+    "id": "kill",
+    "text": "Derrote 3 pimentinhas roxas",
+    "type": "kills",
+    "target": "pimentinha_roxa",
+    "count": 3
+   },
+   {
+    "id": "back",
+    "text": "Fale com o Chef Pimenta",
+    "type": "flag",
+    "target": "spice_chef_done",
+    "count": 1
+   }
+  ],
+  "rewards": {
+   "koban": 160,
+   "items": {
+    "pocao_energia": 2
+   }
+  }
+ }
+}

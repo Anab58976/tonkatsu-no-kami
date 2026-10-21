@@ -1,0 +1,19 @@
+{
+  "id": "saco_farinha",
+  "cell_w": 32,
+  "cell_h": 32,
+  "origin": [
+    16,
+    28
+  ],
+  "generated": false,
+  "animations": {
+    "idle": {
+      "file": "idle.png",
+      "frames": 4,
+      "fps": 4,
+      "loop": true
+    }
+  },
+  "source": "artist"
+}

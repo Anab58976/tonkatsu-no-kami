@@ -1,0 +1,42 @@
+{
+  "id": "armadura_possuida",
+  "cell_w": 48,
+  "cell_h": 48,
+  "origin": [
+    22,
+    44
+  ],
+  "generated": true,
+  "animations": {
+    "idle": {
+      "file": "idle.png",
+      "frames": 4,
+      "fps": 3,
+      "loop": true
+    },
+    "walk": {
+      "file": "walk.png",
+      "frames": 4,
+      "fps": 6,
+      "loop": true
+    },
+    "attack": {
+      "file": "attack.png",
+      "frames": 4,
+      "fps": 7,
+      "loop": false
+    },
+    "hurt": {
+      "file": "hurt.png",
+      "frames": 2,
+      "fps": 12,
+      "loop": false
+    },
+    "die": {
+      "file": "die.png",
+      "frames": 4,
+      "fps": 8,
+      "loop": false
+    }
+  }
+}

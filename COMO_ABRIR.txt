@@ -1,0 +1,36 @@
+TONKATSU NO KAMI — como abrir o projeto na Godot
+================================================
+
+Versão necessária: Godot 4.3 (stable), edição padrão (não a ".NET").
+Download: https://godotengine.org/download/archive/4.3-stable/
+
+1. Descompacte esta pasta em qualquer lugar do computador.
+2. Abra a Godot 4.3. Na tela "Gerenciador de Projetos", clique em "Importar".
+3. Selecione o arquivo "project.godot" que está dentro desta pasta e confirme.
+4. Na primeira abertura a Godot importa todas as imagens (pode levar 1–2 minutos).
+5. Para jogar, aperte F5 (ou o botão ▶ "Executar projeto", no canto superior direito).
+
+Controles
+---------
+WASD / setas: andar        Shift: correr          Espaço: esquivar
+J ou clique esquerdo: atacar (segure para ataque carregado)
+K ou clique direito: habilidade   Q: trocar habilidade
+E: interagir / avançar diálogo     I: inventário   M: mapa   Esc: pausa
+Na introdução, Esc pula a cutscene. Controle (gamepad) também funciona.
+
+O que já dá para jogar
+----------------------
+Menu → cutscene de abertura → Vila do Rei Porco (lojas, castelo, culinária)
+→ Pântano dos Esquecidos → Cidade Fantasma → Reino dos Céus.
+Floresta Espiritual, Reino dos Temperos e Arena ainda não estão abertos
+(a estrada termina numa névoa e o jogo avisa). O jogo ainda não tem áudio.
+
+Pastas
+------
+scenes/, scripts/, autoload/   código e cenas do jogo
+assets/sprites/generated/      sprites usados no jogo
+assets/sprites/source/         a arte original enviada pela equipe (intacta)
+assets/sprites/characters/     coloque aqui sprites oficiais novos: substituem os gerados
+tests/                         testes automáticos (rodar a cena tests/TestRunner.tscn)
+tools/sprite_gen/              scripts Python que converteram a arte para o jogo
+*.md                           documentos de progresso, design e testes

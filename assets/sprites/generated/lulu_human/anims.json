@@ -1,0 +1,114 @@
+{
+  "id": "lulu_human",
+  "cell_w": 64,
+  "cell_h": 64,
+  "origin": [
+    32,
+    60
+  ],
+  "generated": true,
+  "animations": {
+    "idle": {
+      "file": "idle.png",
+      "frames": 6,
+      "fps": 5,
+      "loop": true
+    },
+    "stir": {
+      "file": "stir.png",
+      "frames": 4,
+      "fps": 6,
+      "loop": true
+    },
+    "serve": {
+      "file": "serve.png",
+      "frames": 3,
+      "fps": 5,
+      "loop": false
+    },
+    "taste": {
+      "file": "taste.png",
+      "frames": 5,
+      "fps": 4,
+      "loop": false
+    },
+    "disappointed": {
+      "file": "disappointed.png",
+      "frames": 2,
+      "fps": 3,
+      "loop": true
+    },
+    "embarrassed": {
+      "file": "embarrassed.png",
+      "frames": 3,
+      "fps": 4,
+      "loop": true
+    },
+    "hopeful": {
+      "file": "hopeful.png",
+      "frames": 3,
+      "fps": 3,
+      "loop": true
+    },
+    "surprised": {
+      "file": "surprised.png",
+      "frames": 3,
+      "fps": 6,
+      "loop": false
+    },
+    "determined": {
+      "file": "determined.png",
+      "frames": 3,
+      "fps": 4,
+      "loop": true
+    },
+    "happy": {
+      "file": "happy.png",
+      "frames": 2,
+      "fps": 4,
+      "loop": true
+    },
+    "look_hands": {
+      "file": "look_hands.png",
+      "frames": 4,
+      "fps": 6,
+      "loop": true
+    },
+    "float": {
+      "file": "float.png",
+      "frames": 4,
+      "fps": 4,
+      "loop": true
+    },
+    "side_idle": {
+      "file": "side_idle.png",
+      "frames": 2,
+      "fps": 2,
+      "loop": true
+    },
+    "side_walk": {
+      "file": "side_walk.png",
+      "frames": 4,
+      "fps": 8,
+      "loop": true
+    },
+    "side_look_back": {
+      "file": "side_look_back.png",
+      "frames": 2,
+      "fps": 2,
+      "loop": true
+    },
+    "back_walk": {
+      "file": "back_walk.png",
+      "frames": 4,
+      "fps": 8,
+      "loop": true
+    },
+    "back_idle": {
+      "file": "back_idle.png",
+      "frames": 1,
+      "fps": 1,
+      "loop": true
+    }
+  }
+}

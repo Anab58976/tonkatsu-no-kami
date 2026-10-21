@@ -1,0 +1,12 @@
+.godot/
+*.import.bak
+tools/sprite_gen/_preview/
+tools/sprite_gen/__pycache__/
+export/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+.godot.export_credentials
+export_credentials.cfg

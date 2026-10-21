@@ -1,0 +1,65 @@
+; Engine configuration file.
+; Tonkatsu no Kami — Godot 4.3
+
+config_version=5
+
+[application]
+
+config/name="Tonkatsu no Kami"
+config/description="RPG de ação e aventura 2D em pixel art — fantasia japonesa e culinária."
+config/version="0.1.0"
+run/main_scene="res://scenes/main/Main.tscn"
+config/features=PackedStringArray("4.3", "GL Compatibility")
+boot_splash/bg_color=Color(0.0784, 0.0549, 0.0627, 1)
+boot_splash/show_image=false
+
+[autoload]
+
+Game="*res://autoload/Game.gd"
+InputConfig="*res://autoload/InputConfig.gd"
+SpriteLibrary="*res://autoload/SpriteLibrary.gd"
+AudioDirector="*res://autoload/AudioDirector.gd"
+SaveManager="*res://autoload/SaveManager.gd"
+ItemDB="*res://autoload/ItemDB.gd"
+QuestManager="*res://autoload/QuestManager.gd"
+SceneRouter="*res://autoload/SceneRouter.gd"
+DialogueManager="*res://autoload/DialogueManager.gd"
+
+[display]
+
+window/size/viewport_width=640
+window/size/viewport_height=360
+window/size/window_width_override=1280
+window/size/window_height_override=720
+window/size/mode=3
+window/stretch/mode="viewport"
+window/stretch/aspect="keep"
+window/stretch/scale_mode="fractional"
+
+[gui]
+
+theme/default_font_antialiasing=0
+theme/default_font_hinting=0
+theme/default_font_subpixel_positioning=0
+
+[physics]
+
+common/physics_ticks_per_second=60
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/canvas_textures/default_texture_filter=0
+2d/snap/snap_2d_transforms_to_pixel=true
+2d/snap/snap_2d_vertices_to_pixel=true
+environment/defaults/default_clear_color=Color(0.0784, 0.0549, 0.0627, 1)
+
+[layer_names]
+
+2d_physics/layer_1="world"
+2d_physics/layer_2="player"
+2d_physics/layer_3="enemies"
+2d_physics/layer_4="player_hitbox"
+2d_physics/layer_5="enemy_hitbox"
+2d_physics/layer_6="interactables"
